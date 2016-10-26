@@ -4,9 +4,10 @@ body {
 }
 
 button {
+border-radius: 50%;
 background-color: rgba(255,128,227,0.9);
-font-family: helvetica, serif;
-font-size: 20px;
+font: 20px Verdana, sans-serif;
+color: white;
 border: 0;
 padding: 20px;
 display: block;
@@ -18,4 +19,9 @@ margin-top: 25%;
 button:hover{
 font-weight: bold;
 border: blue solid 2px;
+}
+
+button:focus {
+transition: all 0.25s;
+-webkit-transition: all 0.25s;
 }
