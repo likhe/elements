@@ -5,29 +5,54 @@ body {
 }
 
 button {
-  border-radius: 50%;
-  background-color: rgba(255,128,227,0.9);
-  font: 20px Verdana, sans-serif;
-  color: white;
-  padding: 20px;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25%;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+background-color: rgba(255,128,227,0.9);
+font: 2vw Verdana, sans-serif;
+color: white;
+border: 0;
 }
 
 button:hover {
-  background-color: white;
-  color: grey;
-  box-shadow:10px 10px black;	
-  transition: background-color .3s,color .15s,box-shadow .3s;
-  -webkit-transition: background-color .3s,color .15s,box-shadow .3s;
-  -moz-transition: background-color .3s,color .15s,box-shadow .3s;
+box-shadow: 5px 5px black;
+transition: background-color .9s,color .6s,box-shadow .3s;
+-webkit-transition: background-color .3s,color .15s,box-shadow .3s;
+-moz-transition: background-color .3s,color .15s,box-shadow .3s;
 }
-button:active {
+
+.val {
+  margin-top: 20vw;
+  margin-bottom: 5vw;
+  padding: 5vw;
+  background-color: #27A30D;
+  border-radius: 10%;
+}
+
+.val:hover {
+background-color: transparent;
+color: #27A30D;
+}
+
+.n {
+  margin-bottom: 5vw;
+  border-radius: 50%;
+  background-color: #5498BA;
+  padding: 3vw;
+}
+
+.n:hover {
+  background-color: white;
+  color: #5498BA;
   box-shadow:none;
-  filter: blur(2px);  
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.suppr {
+  padding: 4vw;
+  background-color: #D42820;
+  border-radius: 10%;
+}
+
+.suppr:hover {
+  color: #D42820;
+  background-color: white;
 }
